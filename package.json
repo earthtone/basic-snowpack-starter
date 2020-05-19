@@ -7,11 +7,14 @@
     "format": "prettier --write 'src/**/*.js'",
     "lint": "prettier --check 'src/**/*.js'"
   },
-  "webDependencies": {
-    "canvas-confetti": "^1.2.0"
-  },
+  "webDependencies": {},
   "devDependencies": {
-    "prettier": "^2.0.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss-cli": "^7.1.1",
+    "postcss-preset-env": "^6.7.0",
     "snowpack": "^2.0.0-0"
+  },
+  "dependencies": {
+    "lit-html": "^1.2.1"
   }
 }
